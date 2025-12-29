@@ -1,4 +1,25 @@
-.container{
-    background-color: #08171d;
-    color:#6d7e81;;
+.calendar {
+  font-family: monospace;
+  background-color: #08171d;
+  color: #6d7e81;
+  max-width: max-content;
+  padding: 8px 4px;
+  font-size: 16px;
+}
+
+.month-year {
+  font-size: 16px;
+  margin: 4px;
+}
+
+.weekdays-row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0 10px;
+  gap: 10px;
+}
+
+.current-day {
+  background-color: #839497;
+  color: #08171d;
 }
