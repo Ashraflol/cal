@@ -9,6 +9,8 @@ function App() {
     <div className="App">
       <h1>Calendar Component {calenderDate}</h1>
       <Calender date={calenderDate} />
+      <label htmlFor="dateinput">This is for test only </label>
+      <input type="text" value={calenderDate} onChange={(e) => setCalenderDate(e.target.value)} />
     </div>
   );
 }
