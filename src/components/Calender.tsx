@@ -11,7 +11,6 @@ function Calender(date: { date: string }) {
   const day = EpocDate.getDate();
   const monthname = EpocDate.toLocaleString('default', { month: 'short' });
 
-
   const listItems = [];
   for (let i = 0; i < firstDay.getDay(); i++) {
     listItems.push('');
